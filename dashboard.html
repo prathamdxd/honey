@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            margin: 0;
+        }
+        .navbar {
+            background: #2c2c2c;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .card {
+            background: #121212;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>WordPress</div>
+        <div>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="settings.html">Settings</a>
+            <a href="logout.html">Logout</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Welcome, Admin</h1>
+        <div class="card">
+            <h2>Recent Activity</h2>
+            <p>No recent activity found.</p>
+        </div>
+        <div class="card">
+            <h2>System Updates</h2>
+            <p>Your system is up to date.</p>
+        </div>
+    </div>
+</body>
+</html>
